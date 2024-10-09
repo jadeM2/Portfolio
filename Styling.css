@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:40px 10px;
+    background-color: rgb(24, 44, 94);
+
+    font-family:sans-serif;
+}
+
+.navbar-links{
+    display: inline;
+
+}
+
+#navbar a {
+    color: rgb(218, 207, 215);
+    text-decoration: none;
+    
+}
+
+.navbar-links a {
+    margin-left: 15px;
+}
+
+.namelink{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 10px;
+    display:flow-root;
+    margin-top: 2px;
+}
+
+div.menudesign{
+    display: none;
+    background-color: bisque;
+}
+.menud:hover + div.menudesign{
+    display: block;
+    position: fixed;
+
+}
+
+.menudesign{
+    color: aquamarine;
+}
+
+.righttype{
+    background-color: rgb(204, 201, 199);
+    margin-bottom: 150px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 2000px;
+}
+
+
+.righttype div {
+    display: inline-block;
+    align-items: center;
+}
+
+.bank{
+    background-color: white;
+    width: 200px;
+    margin-left: -30px;
+}
+
+img.pictureindex {
+    width: 200px;
+}
+
+.righttype h5{
+    position: relative;
+    margin: 0;
+    top: -30px;
+
+}
+.leftpart{
+    margin-bottom: 150px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.leftpart div{
+    margin-right: 30px;
+}
+
+
+.setup{
+    background-color: coral;
+    width: 15000px;
+}
