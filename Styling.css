@@ -1,7 +1,7 @@
 body{
     margin: 0;
-
 }
+
 #navbar{
     display: flex;
     flex-direction: row;
@@ -27,6 +27,7 @@ body{
 
 .navbar-links a {
     margin-left: 15px;
+    padding: 10px;
 }
 
 .namelink{
@@ -39,62 +40,230 @@ body{
 
 div.menudesign{
     display: none;
-    background-color: bisque;
+    background-color: rgb(22, 142, 216);
+    padding: 10px;
 }
-.menud:hover + div.menudesign{
+
+a.menud:hover {
+    color: pink !important;
+    font-weight: bold !important;
+}
+
+.menud:hover + div.menudesign, div.menudesign:hover{
     display: block;
     position: fixed;
-
 }
 
 .menudesign{
-    color: aquamarine;
+    color: rgb(224, 234, 231);
+    margin: 10px;
 }
 
-.righttype{
-    background-color: rgb(204, 201, 199);
-    margin-bottom: 150px;
-    text-decoration: none;
+
+div.menuArchi{
+    display: none;
+    background-color: rgb(3, 24, 37);
+    padding: 10px;
+}
+
+a.menuA:hover {
+    color: rgb(134, 12, 32) !important;
+    font-weight: bold !important;
+}
+
+
+.menuA:hover + div.menuArchi, div.menuArchi:hover{
+    display: block;
+    position: fixed;
+}
+
+.menuA:hover + div.menuArchi{
+    display: block;
+    position: fixed;
+}
+
+.menuArchi{
+    color: rgb(224, 234, 231);
+    margin: 5px;
+}
+
+#homeimage{
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    width: 2000px;
-}
-
-
-.righttype div {
-    display: inline-block;
-    align-items: center;
+    margin-bottom: 100px ;
 }
 
 .bank{
     background-color: white;
-    width: 200px;
-    margin-left: -30px;
+    width: 220px;
+    margin-left: 0 !important;
+    margin-right:0 !important;
 }
 
+#archipart{
+    width: 100vw;
+    overflow: scroll;
+}
+
+#archipart::-webkit-scrollbar-thumb{
+    background-color:rgb(21, 146, 171);
+}
+
+#archipart::-webkit-scrollbar-thumb{
+    background-color:rgb(31, 125, 2);
+}
+
+.prestext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.righttype{
+    background-color: rgb(204, 201, 199);
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    width: 2500px;
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.righttype div {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+
 img.pictureindex {
-    width: 200px;
+    width: 500px;
+    height: 300px;
+    padding: 20px 20px 0px 0px;
+}
+
+.fondblanc{
+    top: -304px;
+    right: 10px;
+    POSITION: relative;
+}
+    
+
+h4{
+    background-color: white;
+    opacity: 50%;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 0;
 }
 
 .righttype h5{
     position: relative;
     margin: 0;
-    top: -30px;
-
+    top: -150px;
+    left: 20px;
 }
+
+.space{
+    padding-bottom: 150px;
+}
+
+.space1{
+    padding-bottom: 100px;
+}
+
+
 .leftpart{
-    margin-bottom: 150px;
     background-color: brown;
     display: flex;
     flex-direction: row-reverse;
+    margin-right: 220px;
+    width: fit-content;
 }
 
 .leftpart div{
+    display: inline-block;
+    align-items: center;
     margin-right: 30px;
 }
 
+.leftpart h5{
+    position: relative;
+    margin: 0;
+    top: -150px;
+    left: 20px;
+}
+
+#designpart{
+    width: 100vw;
+    overflow: scroll;
+    scrollbar-color: blue;
+}
+
+
+
+.middlepart{
+    background-color: #EDEDED;
+    width: 1000px;
+}
+
+.middlepart div{
+    display: inline-block;
+    padding: 15px;
+}
+.middlepart img{
+    width: 500px;
+}
+.middlepart h6{
+    text-decoration: none;
+}
+
+#fleche-04{
+    width: 150px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.btn btn-default{
+    background-color: bisque;
+    color: aqua;
+    padding: 10px;
+}
+    
 
 .setup{
     background-color: coral;
     width: 15000px;
+}
+
+.pageprojet{
+    width: 100vw;
+    height: 600px;
+
+}
+.projectset{
+    background-color: rgb(132, 168, 198);
+   width: 5000px;
+   height: fit-content;
+   overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#annonce{
+
+top: 40px;
+}
+
+.projectset.background{
+    width: 5000px;
+}
+
+#aboutme{
+    width: 1510px;
 }
