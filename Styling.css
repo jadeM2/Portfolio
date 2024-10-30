@@ -39,47 +39,18 @@ H5{
     position: relative;
 }
 
-#navbar1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px 10px;
-    padding-right: 30px;
-    top: 0px;
-    font-family: sans-serif;
-    align-content: flex-start;
-
-}
-
-.navbar1-links{
-    display: inline;
-
-}
-
-#navbar1 a {
-    color: rgb(225, 237, 246);
-    text-decoration: none;
-    
-}
-
-.navbar1-links a {
-    padding: 10px;
-}
-
-
-
 .namelink{
     font-weight: bold;
     font-size: 1.2em;
     display:flow-root;
     margin-top: 2px;
+
 }
 
 div.menudesign{
     display: none;
     background-color: rgb(10, 76, 117);
-    padding: 10px;
+    padding: 20px;
 }
 
 a.menud:hover {
@@ -101,7 +72,7 @@ a.menud:hover {
 div.menuArchi{
     display: none;
     background-color: rgb(3, 24, 37);
-    padding: 10px;
+    padding: 20px;
 }
 
 a.menuA:hover {
@@ -287,8 +258,9 @@ html {
     border-radius:100px;
     text-decoration: none;
     font-size: larger;
-    
-    padding: 20px;
+    width: 30px;
+    padding:20px;
+    margin-right: 30px;
 }
 
 .retour{
@@ -302,11 +274,10 @@ justify-content: space-around;
     width: 15000px;
 }
 
-.pageprojet{
-    width: 100vw;
-    height: 600px;
-
+#projecttest{
+    background-color: rgb(24, 44, 94);
 }
+
 .projectset{
     background-color: rgb(132, 168, 198);
    width: 5000px;
@@ -320,10 +291,6 @@ justify-content: space-around;
 #annonce{
 
 top: 40px;
-}
-
-.projectset.background{
-    width: 5000px;
 }
 
 #aboutme{
@@ -341,11 +308,131 @@ p #contact{
     size: 20px;
 }
 
+
+
+#navbar1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 10px;
+    padding-right: 30px;
+    top: 0px;
+    font-family: sans-serif;
+    align-content: flex-start;
+
+}
+
+.navbar1-links{
+    display: inline;
+
+}
+
+
+#navbar1 a {
+    color: rgb(225, 237, 246);
+    text-decoration: none;
+    
+}
+
+.navbar1-links a {
+    padding: 20px;
+}
+
+.navbar-links1{
+    margin-top: 10px;
+}
+
+.navbar-links1 a{
+    padding: 5px;
+}
+
+
 #projecttest .tt{
    display: flex;
    align-items: center;
 justify-content: flex-start;
-flex-direction: row
+flex-direction: row;
+}
 
+.pageprojet{
+    width: 85vw;
+}
+
+.bandepageprojet{
+    width: 280px;
+}
+
+
+.imexpl{
+    width: 600px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.immore{
+    width: 600px;
+}
+
+.zinzin{
+    background-color: rgb(156, 179, 223);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 100px
+}
+
+.immorepro{
+    width: 250px;
+}
+
+.immore1{
+    width: 350px;
+    margin: 20px;
+
+}
+
+.imexpl1{
+        width: 400px;
+        padding-left: 200px;
+        padding-right: 200px;
     
+}
+
+.moreproject{
+    background-color: rgb(198, 215, 232);
+    height: 600px;
+    width: 600px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descrmorepro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.po1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+
+h2{
+    color: rgb(15, 40, 68);
+}
+
+#bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
